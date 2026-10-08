@@ -3,6 +3,8 @@
 Steam 게임 **Sephiria**(앱 ID 2436940)의 일별 평균 플레이어 수와 패치 날짜를 이용해 패치 전후 변화를 분석한다.
 분석 내용과 결론은 [REPORT.md](REPORT.md)에 있다.
 
+### 배포주소[https://mshan2923.github.io/CodysseyM1-1/]
+
 ## 폴더 구조
 
 ```
