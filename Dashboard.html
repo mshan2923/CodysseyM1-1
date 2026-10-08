@@ -29,7 +29,12 @@ th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:right;white
 th{position:sticky;top:0;background:var(--card)}tr.r{cursor:pointer}tr.r:hover{background:var(--bg)}
 .pos{color:#1a7f37}.neg{color:var(--red)}.tag{font-size:11px;padding:1px 6px;border-radius:6px;background:var(--bg);color:var(--mut)}.tag.m{background:var(--red);color:#fff}
 .ins{display:grid;gap:10px}.ins p{margin:6px 0 0}.note{color:var(--mut);font-size:13px}
-</style></head><body><main>
+a{color:var(--ac)}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--card);border-bottom:1px solid var(--line);padding:8px 16px;font-size:14px;z-index:5}
+nav a,nav b{margin-right:16px}
+</style></head><body>
+<nav><a href="index.html">← 리포트</a><b>인터랙티브 대시보드</b></nav>
+<main>
 <h1>세피리아 패치 전후 플레이어 수 분석</h1>
 <p class="sub">Steam <i>Sephiria</i> 일별 평균 플레이어 수와 패치 날짜 · 2025-04-03 ~ 2026-10-05 · 관찰만 다루며 인과는 단정하지 않습니다.</p>
 <div class="kpis" id="kpis"></div>
